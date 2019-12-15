@@ -2,11 +2,11 @@
 Testing CORBA (omniORB) in Qt linux ubuntu.
 
 
-The folowing packets should be installed:
+The folowing packages should be installed:
 omniidl omniorb omniorb-nameserver omniorb-idl libomniorb4-dev libomniorb4-2;
 libncurses5-dev libncursesw5-dev
 
-to configure omniORB InitRef line in the file: /etc/omniORB.cfg should be edited:
+to configure omniORB InitRef line in the configuration file: /etc/omniORB.cfg should be edited:
 InitRef = NameService=corbaname::localhost:4333
 
 
