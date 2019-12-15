@@ -16,4 +16,7 @@ sudo omniNames -start 4333 -logdir ~/omnilog/ -errlog ~/omnilog/omniNamesError.t
 ./server -ORBInitRef NameService=corbaloc::localhost:4333/NameService
 ./client -ORBInitRef NameService=corbaloc::localhost:4333/NameService
 
-(Ready to test binary files: "server" and "client" are located in folder "bin".)
+Ready to test binary files: "server" and "client" are located in folder "bin".
+
+Expected test result:
+during typing symbols in client console window the same symbols immediately appear in server console window.
