@@ -1,4 +1,0 @@
-interface ExampleInterface
-{
-	string send_message(in string message);
-};
