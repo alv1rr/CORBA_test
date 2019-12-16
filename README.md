@@ -6,8 +6,14 @@ The folowing packages should be installed:
 omniidl omniorb omniorb-nameserver omniorb-idl libomniorb4-dev libomniorb4-2;
 libncurses5-dev libncursesw5-dev
 
-to configure omniORB InitRef line in the configuration file: /etc/omniORB.cfg should be edited:
+To configure omniORB port and host the InitRef line in the configuration file: /etc/omniORB.cfg should be edited:
+
 InitRef = NameService=corbaname::localhost:4333
+
+
+Header file example.hh and source file exampleSK.cc have been generated from file example.idl (located in "idl" folder) by executing the command:
+
+omniidl -bcxx example.idl
 
 
 To run all parts of the application the following commands shoud be executed:
